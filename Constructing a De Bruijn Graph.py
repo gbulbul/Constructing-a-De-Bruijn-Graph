@@ -7,9 +7,7 @@ Created on Fri Jul 19 20:14:21 2024
 
 class Constructing_a_De_Bruijn_Graph:
     def find_triples(list_of_strings):
-        list_1=[]
-        list_2=[]
-        tup=[]
+        list_1,list_2,tup=[],[],[]
         for i,idx in enumerate(list_of_strings):
             for j,idy in enumerate(list_of_strings):
                 if idx!=idy:
